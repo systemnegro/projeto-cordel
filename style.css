@@ -4,6 +4,10 @@
     margin:0;
     padding:0;
 }
+html, bady{
+    background-color: darkgray;
+    min-height: 100vh;
+}
 
 @font-face {
     font-family:'Passion One' ;
@@ -20,7 +24,10 @@ header{
     color: white;
     font-family: 'Passion One' ;    
 }
-
+header p{
+    padding-bottom: 50px;
+    
+}
 a{
     
     color: white;
@@ -30,14 +37,12 @@ a{
 a:hover{
     text-decoration: underline;
 }
-span{
-    font-size: 70px;
-}
+
 h1{
-    text-transform: uppercase;
+    font-variant: small-caps;
     font-family: 'Passion One' ;
     font-size: 3em;
-    padding: 50px 0px 8px 0px;
+    padding-top: 50px;
 }
 
 main{
@@ -45,19 +50,18 @@ main{
       
 }
 section {
-    margin: 80px 0px 60px 15px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
 }
 #img1{
-    padding: 80px 0px 80px 15px;
     color: white;
-    margin:0;
     background: url(imagens/background001.jpg) right center no-repeat fixed;
     background-size:cover;
 }
 #img2{
     color: white;
-    padding: 80px 0px 80px 15px;
-    margin: 0;
     background: url(imagens/background002.jpg) right center no-repeat fixed;
     background-size:cover;
 }
@@ -78,3 +82,9 @@ footer{
     padding: 8px;
     margin: 40px 0px 0px 0px;
 }
+/*
+pre{
+    white-space: pre-line;
+    font-family: 'sriracha' ;
+}
+*/
