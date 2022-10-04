@@ -53,6 +53,7 @@ h1{
 
 section {
     font-family: var(--font3);
+    font-size: 1.3em;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
