@@ -5,7 +5,7 @@
     padding:0;
 }
 html, bady{
-    background-color: darkgray;
+    background-color: whitesmoke;
     min-height: 100vh;
     font-family: var(--font1);
 }
@@ -24,24 +24,30 @@ html, bady{
     src: url(fonts/Sriracha-Regular.ttf);
 }
 header{
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.568);
     height: 200px ;
     text-align: center;
-    background-image:linear-gradient(to top,#12380f 30%,#153d10fa);
+    background-color: #506266 ;
     color: white;
        
 }
 header p{
     padding-bottom: 50px;
-    font-weight: bolder;
+    
     
 }
 a{
+    font-weight: bolder;
     color: white;
-    text-decoration: none;
-    font-size: 20px;
+    text-decoration: none;   
+}
+header a::after{
+    content: '🔗';
 }
 a:hover{
     text-decoration: underline;
+    color: rgb(207, 206, 206);
+
 }
 
 h1{
@@ -65,13 +71,13 @@ section p{
 }
 #img1{
     color: white;
-    background: url(imagens/background001.jpg) right center no-repeat fixed;
+    background: url(imagens/background01.jpg) right center no-repeat fixed;
     background-size:cover;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.445);
 }
 #img2{
     color: white;
-    background: url(imagens/background002.jpg) right center no-repeat fixed;
+    background: url(imagens/background02.jpg) right center no-repeat fixed;
     background-size:cover;
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.445);
 }
@@ -83,7 +89,7 @@ section p{
 
 footer{
     font-family: var(--font1);
-    background-color: black;
+    background-color: #506266;
     color: white;
     text-align: center;
     padding: 8px;
